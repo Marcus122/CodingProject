@@ -1,0 +1,20 @@
+ol,
+ul {
+  list-style: none;
+}
+.letter {
+  display: inline-block;
+  margin-right: 5px;
+}
+.country {
+  min-height: 50px;
+}
+.country:nth-child(3n+1) {
+  margin-left: 0;
+}
+.country .code {
+  font-weight: bold;
+}
+.go {
+  margin-left: 5px;
+}

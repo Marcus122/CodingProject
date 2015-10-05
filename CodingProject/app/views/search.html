@@ -1,0 +1,11 @@
+﻿<ol>
+    <li class="letter" ng-repeat="letter in letters">
+        <div letter data="letter"/>
+    </li>
+</ol>
+<h2>Countries that begin with {{letter}}</h2>
+<ul>
+    <li class="columns four country" ng-repeat="country in countries">
+        <div country data="country"/>
+    </li>
+</ul>

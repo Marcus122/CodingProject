@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Coding Project</title>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-route.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-resource.min.js"></script>
+    <script src="/app/app.js"></script>
+    <script src="/app/controllers.js"></script>
+    <script src="/app/directives.js"></script>
+    <script src="/app/models.js"></script>
+    <link href="/css/styles.min.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body ng-controller="AppController">
+    <header class="container">
+        <h1>{{title}}</h1>
+    </header>
+    <main ng-if="loaded" class="container" ng-view></main>
+    <footer class="container"></footer>
+</body>
+</html>
